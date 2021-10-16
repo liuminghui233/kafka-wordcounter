@@ -31,9 +31,7 @@
    运行：
 
    ```bash
-   $ mvn exec:java \
-   -Dexec.mainClass="MyProducer" \
-   -Dexec.args="/home/lmh/kafka-wordcounter/text"
+   $ mvn exec:java  -Dexec.mainClass="MyProducer" -Dexec.args="./text"
    ```
 
 4. 消费者接收消息，并进行单词计数。
